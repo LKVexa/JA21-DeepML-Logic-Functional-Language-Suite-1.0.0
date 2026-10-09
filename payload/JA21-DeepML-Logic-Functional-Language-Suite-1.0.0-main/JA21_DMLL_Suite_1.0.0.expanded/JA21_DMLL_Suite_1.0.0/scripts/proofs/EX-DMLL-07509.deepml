@@ -1,0 +1,11 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_07509
+policy pure_by_default
+policy no_network
+fn pipeline(xs: List<Int>) -> Int = fold((a,x) => a + (x * 1), 0, map(identity, xs))
+rule path(A,C) :- edge(A,B), path(B,C)
+rule path(A,B) :- edge(A,B)
+theorem redundant_identity(xs) : map(identity,xs) == xs
+proof redundant_identity { induction xs simplify qed }
+optimize module using [beta_reduction, tail_call, deforestation, rule_indexing, common_subexpression_elimination, tabling, proof_normalization]
+lower module to DEEPML_LOGIC_R12

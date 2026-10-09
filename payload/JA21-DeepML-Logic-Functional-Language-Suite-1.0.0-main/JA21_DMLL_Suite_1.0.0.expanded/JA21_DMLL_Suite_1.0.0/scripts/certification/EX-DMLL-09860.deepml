@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09860
+policy pure_by_default
+policy no_network
+module Logic09860 { instance Eq<Int> A instance Eq<Int> B }
+certify logic Logic09860 profile strict

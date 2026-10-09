@@ -1,0 +1,714 @@
+{
+  "language": "deepml.logic",
+  "operators": [
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.algebraic_data_type",
+      "normalized": "declare_or_compose_algebraic_data_type",
+      "omega": "OMEGA_DMLL_ALGEBRAIC_DATA_TYPE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "algebraic_data_type"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.ambiguous_instance",
+      "normalized": "declare_or_compose_ambiguous_instance",
+      "omega": "OMEGA_DMLL_AMBIGUOUS_INSTANCE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "ambiguous_instance"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.beta_reduction",
+      "normalized": "declare_or_compose_beta_reduction",
+      "omega": "OMEGA_DMLL_BETA_REDUCTION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "beta_reduction"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.certification_logic",
+      "normalized": "declare_or_compose_certification_logic",
+      "omega": "OMEGA_DMLL_CERTIFICATION_LOGIC",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "certification_logic"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.constraint_solving",
+      "normalized": "declare_or_compose_constraint_solving",
+      "omega": "OMEGA_DMLL_CONSTRAINT_SOLVING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "constraint_solving"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.contradictory_facts",
+      "normalized": "declare_or_compose_contradictory_facts",
+      "omega": "OMEGA_DMLL_CONTRADICTORY_FACTS",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "contradictory_facts"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.cse",
+      "normalized": "declare_or_compose_cse",
+      "omega": "OMEGA_DMLL_CSE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "cse"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.deforestation",
+      "normalized": "declare_or_compose_deforestation",
+      "omega": "OMEGA_DMLL_DEFORESTATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "deforestation"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.effect_declaration",
+      "normalized": "declare_or_compose_effect_declaration",
+      "omega": "OMEGA_DMLL_EFFECT_DECLARATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "effect_declaration"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.expression",
+      "normalized": "declare_or_compose_expression",
+      "omega": "OMEGA_DMLL_EXPRESSION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "expression"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.fact",
+      "normalized": "declare_or_compose_fact",
+      "omega": "OMEGA_DMLL_FACT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "fact"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.fold",
+      "normalized": "declare_or_compose_fold",
+      "omega": "OMEGA_DMLL_FOLD",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "fold"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.guard",
+      "normalized": "declare_or_compose_guard",
+      "omega": "OMEGA_DMLL_GUARD",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "guard"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.higher_order_function",
+      "normalized": "declare_or_compose_higher_order_function",
+      "omega": "OMEGA_DMLL_HIGHER_ORDER_FUNCTION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "higher_order_function"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.immutable_value",
+      "normalized": "declare_or_compose_immutable_value",
+      "omega": "OMEGA_DMLL_IMMUTABLE_VALUE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "immutable_value"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.impure_effect",
+      "normalized": "declare_or_compose_impure_effect",
+      "omega": "OMEGA_DMLL_IMPURE_EFFECT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "impure_effect"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.incomplete_match",
+      "normalized": "declare_or_compose_incomplete_match",
+      "omega": "OMEGA_DMLL_INCOMPLETE_MATCH",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "incomplete_match"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.inference_divergence",
+      "normalized": "certify_inference_divergence",
+      "omega": "OMEGA_DMLL_INFERENCE_DIVERGENCE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "inference_divergence"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.inference_strategy",
+      "normalized": "declare_or_compose_inference_strategy",
+      "omega": "OMEGA_DMLL_INFERENCE_STRATEGY",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "inference_strategy"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.knowledge_base",
+      "normalized": "declare_or_compose_knowledge_base",
+      "omega": "OMEGA_DMLL_KNOWLEDGE_BASE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "knowledge_base"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.lambda",
+      "normalized": "declare_or_compose_lambda",
+      "omega": "OMEGA_DMLL_LAMBDA",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "lambda"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.logic_graph_integration",
+      "normalized": "declare_or_compose_logic_graph_integration",
+      "omega": "OMEGA_DMLL_LOGIC_GRAPH_INTEGRATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "logic_graph_integration"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.memoization",
+      "normalized": "declare_or_compose_memoization",
+      "omega": "OMEGA_DMLL_MEMOIZATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "memoization"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.module",
+      "normalized": "declare_or_compose_module",
+      "omega": "OMEGA_DMLL_MODULE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "module"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.nontermination",
+      "normalized": "declare_or_compose_nontermination",
+      "omega": "OMEGA_DMLL_NONTERMINATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "nontermination"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.occurs_check",
+      "normalized": "declare_or_compose_occurs_check",
+      "omega": "OMEGA_DMLL_OCCURS_CHECK",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "occurs_check"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.pattern_match",
+      "normalized": "declare_or_compose_pattern_match",
+      "omega": "OMEGA_DMLL_PATTERN_MATCH",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "pattern_match"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.planning_system",
+      "normalized": "declare_or_compose_planning_system",
+      "omega": "OMEGA_DMLL_PLANNING_SYSTEM",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "planning_system"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.predicate",
+      "normalized": "declare_or_compose_predicate",
+      "omega": "OMEGA_DMLL_PREDICATE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "predicate"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.proof_carrying_transform",
+      "normalized": "declare_or_compose_proof_carrying_transform",
+      "omega": "OMEGA_DMLL_PROOF_CARRYING_TRANSFORM",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "proof_carrying_transform"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.proof_normalization",
+      "normalized": "declare_or_compose_proof_normalization",
+      "omega": "OMEGA_DMLL_PROOF_NORMALIZATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "proof_normalization"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.proof_term",
+      "normalized": "declare_or_compose_proof_term",
+      "omega": "OMEGA_DMLL_PROOF_TERM",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "proof_term"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.pure_function",
+      "normalized": "declare_or_compose_pure_function",
+      "omega": "OMEGA_DMLL_PURE_FUNCTION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "pure_function"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.r12_mcrt_lowering",
+      "normalized": "declare_or_compose_r12_mcrt_lowering",
+      "omega": "OMEGA_DMLL_R12_MCRT_LOWERING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "r12_mcrt_lowering"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.recursion",
+      "normalized": "declare_or_compose_recursion",
+      "omega": "OMEGA_DMLL_RECURSION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "recursion"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.rule",
+      "normalized": "declare_or_compose_rule",
+      "omega": "OMEGA_DMLL_RULE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "rule"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.rule_indexing",
+      "normalized": "declare_or_compose_rule_indexing",
+      "omega": "OMEGA_DMLL_RULE_INDEXING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "rule_indexing"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.scene_timeline_rules",
+      "normalized": "declare_or_compose_scene_timeline_rules",
+      "omega": "OMEGA_DMLL_SCENE_TIMELINE_RULES",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "scene_timeline_rules"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.symbolic_neural_workflow",
+      "normalized": "declare_or_compose_symbolic_neural_workflow",
+      "omega": "OMEGA_DMLL_SYMBOLIC_NEURAL_WORKFLOW",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "symbolic_neural_workflow"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.symbolic_reasoning",
+      "normalized": "declare_or_compose_symbolic_reasoning",
+      "omega": "OMEGA_DMLL_SYMBOLIC_REASONING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "symbolic_reasoning"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.tabling",
+      "normalized": "declare_or_compose_tabling",
+      "omega": "OMEGA_DMLL_TABLING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "tabling"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.tail_call",
+      "normalized": "declare_or_compose_tail_call",
+      "omega": "OMEGA_DMLL_TAIL_CALL",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "tail_call"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.theorem",
+      "normalized": "declare_or_compose_theorem",
+      "omega": "OMEGA_DMLL_THEOREM",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "theorem"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.trait",
+      "normalized": "declare_or_compose_trait",
+      "omega": "OMEGA_DMLL_TRAIT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "trait"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.unification",
+      "normalized": "declare_or_compose_unification",
+      "omega": "OMEGA_DMLL_UNIFICATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "unification"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "deepml.logic.operator.unsound_proof",
+      "normalized": "declare_or_compose_unsound_proof",
+      "omega": "OMEGA_DMLL_UNSOUND_PROOF",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "unsound_proof"
+    }
+  ],
+  "_coupling_mechanics": {
+    "framework": "Smithson 8S Coupled Mechanics v1.0",
+    "status": "Proposed generative and computational law; not an established physical law, not the standard sphere S^8 without separate topological proof, and not evidence of physical quantum entanglement.",
+    "author": "Russell Philip Smithson",
+    "analytical_support_layers": [
+      "SOPHIA",
+      "CHARLOTTE",
+      "LANDON"
+    ],
+    "canonical_terms": {
+      "object": "S^3 fiber",
+      "base": "five-dimensional penteract field B^5=[-1,1]^5",
+      "hidden_center": "latent five-dimensional center",
+      "fifth_coordinate": "elucidation coordinate t8 with declared independent semantic or mechanical meaning",
+      "visible_center": "projected center",
+      "pairwise_interaction": "sparse geometric-semantic classical coupling",
+      "higher_order_interaction": "selective triadic coupling",
+      "visual_overlap": "projected three-dimensional overlap",
+      "total_space": "locally eight-dimensional noncollapsed penteract-S^3 hyperfiber system"
+    },
+    "equations": {
+      "coordinate_extension": "C5=[C4|e]",
+      "independent_residual": "e_perp=(I-C4*C4^+)e",
+      "independence_score": "eta_ind=||e_perp||_2^2/(||e||_2^2+epsilon)",
+      "driver": "q(tau)=sin^2(pi*tau/T)",
+      "candidate_site": "c_n=ell*n, n in Z^5, ||n||_1<=M",
+      "shell_multiplicity": "A_5(m)=sum_{j=1}^{min(5,m)} 2^j*C(5,j)*C(m-1,j-1); A_5(0)=1",
+      "coupling_weight": "W_ij=A_ij*exp(-((c_i-c_j)^T G5 (c_i-c_j))/(2 sigma_c^2)-d_J(i,j)^2/(2 sigma_J^2))",
+      "phase_dynamics": "dtheta_i/dtau=omega_i+K2*sum_j W_ij*sin(theta_j-theta_i)+K3*sum_{j,k} H_ijk*sin(theta_j+theta_k-2theta_i)",
+      "activation_score": "h_i=beta(Mq+1/2-d_i)+a_E E_i+a_u u_i-a_chi chi_i-a_zeta zeta_i+J2*sum_j W_ij(2p_j-1)+J3*sum_{j,k} H_ijk(2p_j-1)(2p_k-1)",
+      "activation": "p_i=sigma(h_i)=1/(1+exp(-h_i))",
+      "smooth_boundary": "B_5,infinity(c_i)=prod_{a=4}^{8} b(c_{i,a})",
+      "effective_support": "s_i=p_i*kappa_i*(1-chi_i)*(1-zeta_i)*v(omega_i)",
+      "radius": "r_i=r_max*B_5,infinity(c_i)^alpha*s_i^(1/3)",
+      "fiber": "F_i=S^3_{r_i}={y in R^4: ||y||_2=r_i}",
+      "fiber_volume": "Vol(S^3_{r_i})=2*pi^2*r_max^3*B_5,infinity(c_i)^(3alpha)*s_i",
+      "total_space": "X8(tau)={(c,y) in [-1,1]^5 x R^4: ||y||_2=R(c,tau)}",
+      "full_projection": "x_i^(3)(u,tau)=[Pi5(tau)|Psi4(tau)]*[c_i;r_i*u], u in S^3",
+      "latent_5d_gap": "g5_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j))-(lambda_i+lambda_j)",
+      "product_state_separation": "delta8_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j)+(r_i-r_j)^2)",
+      "projected_gap": "g3_ij=||Pi5*c_i-Pi5*c_j||_2-(rhat_i+rhat_j)",
+      "semantic_gap": "gJ_ij=d_J(J_i,J_j)-theta_J",
+      "efficacy_gain": "Delta_8S=Score(M8)-Score(M7)",
+      "admission_gate": "Admit(8S) iff eta_ind>=epsilon_ind and Delta_8S>epsilon_gain"
+    },
+    "relation_test": {
+      "inputs": [
+        "g5_ij",
+        "delta8_ij",
+        "g3_ij",
+        "gJ_ij",
+        "K_ij",
+        "Sigma_ij"
+      ],
+      "classification_order": [
+        "UNRESOLVED when an uncertainty interval crosses a declared tolerance or required evidence/provenance is missing",
+        "CONTRADICTION when K_ij>=theta_K",
+        "HIGHER_ORDER when a triadic term changes the pairwise result",
+        "PROJECTION_ONLY when g5_ij>tol5 and g3_ij<=tol3",
+        "LATENT_5D_COUPLED when g5_ij<-tol5",
+        "FIBER_STATE_RESONANT when delta8_ij<=tol8 and phase coherence is within tolerance",
+        "SEMANTIC_ONLY when latent and projected gaps are positive but gJ_ij<=tolJ",
+        "REINFORCING when semantics, phase, and provenance support the same result",
+        "NONE otherwise"
+      ],
+      "scale": "L=max(ell,r_max,lambda_i,lambda_j,||c_i-c_j||_G5)",
+      "tol5": "1e-7 L unless a stricter profile is declared",
+      "tol8": "1e-7 L unless a stricter profile is declared",
+      "tol3": "1e-5 L unless a stricter rendering profile is declared",
+      "tolJ": "declared semantic-distance tolerance",
+      "observability": "A single 3x5 base projection has nullspace dimension at least two; stacked views require rank 5 for unique linear center reconstruction."
+    },
+    "r12_profile": {
+      "identity_schema": "8S law version and penteract profile",
+      "latent_geometry": "c_i, G5, shell, fifth-coordinate meaning",
+      "activation_support": "p_i, kappa_i, chi_i, zeta_i, s_i",
+      "phase_coupling": "theta_i, W_ij, H_ijk, interaction order",
+      "projection_tests": "g5, delta8, g3, gJ, projection version, tolerance profile",
+      "certification": "eta_ind, Delta_8S, relation class, limitations",
+      "fold_invariant": "document-level folding must preserve contradiction, uncertainty, provenance, projection version, and the interaction order that changed the result"
+    },
+    "execution_policy": {
+      "default": "sparse pairwise neighborhoods",
+      "escalation": "activate triadic terms only in unresolved, contradictory, high-risk, or certification-critical clusters",
+      "complexity_target": "O(Nk) pairwise sparse execution with selective higher-order escalation rather than unrestricted O(N^3) triads"
+    },
+    "validation_gate": {
+      "compare_models": "fit M7 and M8 to the same data and evaluate held-out results",
+      "required_tests": [
+        "nonredundancy",
+        "interpretability",
+        "predictive or certifying gain",
+        "cost-benefit",
+        "projection identifiability",
+        "R12 replay invariants"
+      ],
+      "replay_requirements": {
+        "independence_score_difference": "<=1e-8",
+        "center_radius_phase_difference": "<=1e-7 L with wrapped phase <=1e-6 radians",
+        "relation_class_and_tuple_hash": "identical",
+        "interaction_order": "identical"
+      }
+    },
+    "example": "When g5>tol5 and g3<=tol3, record PROJECTION_ONLY; preserve delta8, gJ, uncertainty, projection version, and interaction order independently.",
+    "annotations": [
+      "The fifth coordinate is admitted only when it contains a material residual outside span(C4), has declared meaning, and improves held-out efficacy after compute and energy costs.",
+      "A five-dimensional base plus an S^3 fiber gives local noncollapsed dimension 8, but does not by itself prove the total space is the standard sphere S^8.",
+      "Increasing latent dimension is distinct from adding higher-order coupling: H_ijk is required for genuine triadic mechanics.",
+      "Additional numerical data required: C4, proposed coordinate e, G5, W, optional H, evidence fields, phase initial conditions, projection family, apparent radii or meshes, semantic metric, tolerances, provenance, and replay identifier."
+    ]
+  }
+}

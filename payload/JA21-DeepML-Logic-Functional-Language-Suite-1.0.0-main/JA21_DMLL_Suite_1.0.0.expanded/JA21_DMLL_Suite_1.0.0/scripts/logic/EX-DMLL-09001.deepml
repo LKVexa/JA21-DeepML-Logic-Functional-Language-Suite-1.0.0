@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09001
+policy pure_by_default
+policy no_network
+module Logic09001 { rule p(X) :- p(X) query p(a) strategy depth_first }
+certify logic Logic09001 profile strict

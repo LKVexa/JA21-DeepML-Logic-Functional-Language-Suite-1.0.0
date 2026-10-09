@@ -1,0 +1,21 @@
+deepml logic 0.3
+module starter.logic_functional.capstone
+policy pure_by_default
+policy no_network
+
+type Option<T> = Some(T) | None
+
+fn identity<T>(x: T) -> T = x
+fn map_option<T,U>(f: T -> U, x: Option<T>) -> Option<U> =
+  match x {
+    Some(v) => Some(f(v))
+    None => None
+  }
+
+predicate authorized(x: Text)
+fact authorized("operator")
+
+rule may_execute(x) :- authorized(x)
+
+theorem identity_law<T>(x:T) : identity(x) == x
+proof identity_law { simplify identity qed }

@@ -1,0 +1,11 @@
+{
+  "name": "ja21-dmll-capstone",
+  "version": "0.1.0",
+  "language": "deepml logic 0.3",
+  "entry": "src/main.deepml",
+  "policies": [
+    "pure_by_default",
+    "no_network"
+  ],
+  "expected_stage": "runtime"
+}

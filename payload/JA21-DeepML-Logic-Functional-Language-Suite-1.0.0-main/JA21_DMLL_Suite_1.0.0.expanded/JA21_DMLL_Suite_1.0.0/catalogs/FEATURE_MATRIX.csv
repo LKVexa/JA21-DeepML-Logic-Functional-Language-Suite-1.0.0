@@ -1,0 +1,47 @@
+topic,record_count,positive,negative,certification,tiers,stages
+algebraic_data_type,125,120,5,0,basic_syntax,runtime | semantic_validation
+ambiguous_instance,125,0,95,30,validation_certification,certification | type_check
+beta_reduction,188,152,36,0,compiler_optimization,runtime | semantic_validation
+certification_logic,417,375,42,0,large_integrated_examples,runtime | semantic_validation
+constraint_solving,358,305,53,0,advanced_composition,runtime | semantic_validation
+contradictory_facts,125,0,125,0,validation_certification,semantic_validation
+cse,187,148,39,0,compiler_optimization,runtime | semantic_validation
+deforestation,187,147,40,0,compiler_optimization,runtime | semantic_validation
+effect_declaration,166,146,20,0,intermediate_constructs,runtime | semantic_validation
+expression,125,120,5,0,basic_syntax,runtime | semantic_validation
+fact,125,120,5,0,basic_syntax,runtime | semantic_validation
+fold,167,153,14,0,intermediate_constructs,runtime | semantic_validation
+guard,167,155,12,0,intermediate_constructs,runtime | semantic_validation
+higher_order_function,167,149,18,0,intermediate_constructs,runtime | semantic_validation
+immutable_value,125,120,5,0,basic_syntax,runtime | semantic_validation
+impure_effect,125,0,90,35,validation_certification,certification | safety_gate
+incomplete_match,125,0,125,0,validation_certification,type_check
+inference_divergence,125,0,125,0,validation_certification,semantic_validation
+inference_strategy,357,303,54,0,advanced_composition,runtime | semantic_validation
+knowledge_base,417,375,42,0,large_integrated_examples,runtime | semantic_validation
+lambda,125,120,5,0,basic_syntax,runtime | semantic_validation
+logic_graph_integration,357,303,54,0,advanced_composition,runtime | semantic_validation
+memoization,357,304,53,0,advanced_composition,runtime | semantic_validation
+module,167,151,16,0,intermediate_constructs,runtime | semantic_validation
+nontermination,125,0,125,0,validation_certification,semantic_validation
+occurs_check,125,0,125,0,validation_certification,semantic_validation
+pattern_match,125,115,10,0,basic_syntax,runtime | semantic_validation
+planning_system,417,375,42,0,large_integrated_examples,runtime | semantic_validation
+predicate,125,120,5,0,basic_syntax,runtime | semantic_validation
+proof_carrying_transform,416,375,41,0,large_integrated_examples,runtime | semantic_validation
+proof_normalization,188,153,35,0,compiler_optimization,runtime | semantic_validation
+proof_term,357,304,53,0,advanced_composition,runtime | semantic_validation
+pure_function,125,115,10,0,basic_syntax,runtime | semantic_validation
+r12_mcrt_lowering,188,148,40,0,compiler_optimization,runtime | semantic_validation
+recursion,167,147,20,0,intermediate_constructs,runtime | semantic_validation
+rule,166,146,20,0,intermediate_constructs,runtime | semantic_validation
+rule_indexing,187,152,35,0,compiler_optimization,runtime | semantic_validation
+scene_timeline_rules,417,375,42,0,large_integrated_examples,runtime | semantic_validation
+symbolic_neural_workflow,416,375,41,0,large_integrated_examples,runtime | semantic_validation
+symbolic_reasoning,357,303,54,0,advanced_composition,runtime | semantic_validation
+tabling,187,148,39,0,compiler_optimization,runtime | semantic_validation
+tail_call,188,152,36,0,compiler_optimization,runtime | semantic_validation
+theorem,357,303,54,0,advanced_composition,runtime | semantic_validation
+trait,166,146,20,0,intermediate_constructs,runtime | semantic_validation
+unification,167,157,10,0,intermediate_constructs,runtime | semantic_validation
+unsound_proof,125,0,125,0,validation_certification,semantic_validation

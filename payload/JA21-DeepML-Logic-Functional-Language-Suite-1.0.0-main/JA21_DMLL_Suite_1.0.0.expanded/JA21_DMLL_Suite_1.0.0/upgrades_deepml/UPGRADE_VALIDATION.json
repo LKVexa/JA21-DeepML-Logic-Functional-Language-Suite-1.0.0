@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "authority": "schema, hashes, standalone policy, metadata qualification and master/shard equality only",
+  "native_language_conformance": "not_tested",
+  "profile": "deepml.logic",
+  "unique_master_records": 10000,
+  "datasets": [
+    {
+      "path": "corpus/technical/deepml_logic_functional_technical_corpus_10000.jsonl.gz",
+      "records": 10000,
+      "quarantined_records": 0,
+      "schema_hash_policy_errors": 0
+    }
+  ],
+  "failures": [],
+  "validator_engine": {
+    "package": "jsonschema",
+    "version": "4.25.1",
+    "draft": "2020-12",
+    "external_references": "refused"
+  }
+}

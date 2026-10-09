@@ -1,0 +1,21 @@
+{
+  "grammar": "specification/deepml_logic_functional.ebnf",
+  "status": "incomplete_specification",
+  "undefined_references": [
+    "boolean",
+    "digit",
+    "letter",
+    "number",
+    "parameters",
+    "predicateCall",
+    "proofDecl",
+    "statement",
+    "string",
+    "typeParams",
+    "typeRef",
+    "valueDecl",
+    "variant"
+  ],
+  "editorial_extension_reachable_from_program": false,
+  "authority": "Static production-reference inspection only; no syntax or semantic conformance claim."
+}

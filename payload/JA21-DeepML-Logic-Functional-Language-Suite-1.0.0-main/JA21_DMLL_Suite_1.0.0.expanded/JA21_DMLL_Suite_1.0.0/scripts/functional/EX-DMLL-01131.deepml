@@ -1,0 +1,12 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_01131
+policy pure_by_default
+policy no_network
+trait Monoid<T> { fn empty() -> T fn combine(a:T,b:T)->T }
+fn fold<T,U>(f: (U,T)->U, init: U, xs: List<T>) -> U = match xs { [] => init [h|t] => fold(f, f(init,h), t) }
+fn factorial(n:Int)->Int = if n <= 1 then 1 else n * factorial(n-1)
+predicate parent(A,B)
+rule ancestor(A,B) :- parent(A,B)
+rule ancestor(A,C) :- parent(A,B), ancestor(B,C)
+query ancestor("node4", X) strategy tabled
+effect IO declared but not used

@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09034
+policy pure_by_default
+policy no_network
+module Logic09034 { fn loop(x:Int)->Int = loop(x) }
+certify logic Logic09034 profile strict

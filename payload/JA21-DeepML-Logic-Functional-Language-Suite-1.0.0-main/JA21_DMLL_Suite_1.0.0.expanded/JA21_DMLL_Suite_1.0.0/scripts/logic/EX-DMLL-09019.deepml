@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09019
+policy pure_by_default
+policy no_network
+module Logic09019 { unify X with List<X> }
+certify logic Logic09019 profile strict

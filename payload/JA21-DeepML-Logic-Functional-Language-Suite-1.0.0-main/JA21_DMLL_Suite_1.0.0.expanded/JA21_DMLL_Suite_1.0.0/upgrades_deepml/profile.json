@@ -1,0 +1,6 @@
+{
+  "profile": "deepml.logic",
+  "source_version": "0.3",
+  "schema_path": "corpus/technical/record.schema.json",
+  "master": "deepml_logic_functional_technical_corpus_10000.jsonl.gz"
+}

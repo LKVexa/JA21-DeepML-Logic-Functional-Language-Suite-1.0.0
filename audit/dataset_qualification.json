@@ -1,0 +1,662 @@
+[
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/catalogs/SCRIPT_CATALOG.jsonl",
+    "current_sha256": "b0b744e1322ffd6239c60c6cbba200c1b8357eb8b526ba0627ae0955fc33d158",
+    "source_sha256": "b0b744e1322ffd6239c60c6cbba200c1b8357eb8b526ba0627ae0955fc33d158",
+    "stored_jsonl_rows": 1000,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+    "current_sha256": "4470d579e165ad09847ce153dac61af1bfdd1587b1bb0cb247459ad1501bfcab",
+    "source_sha256": "4470d579e165ad09847ce153dac61af1bfdd1587b1bb0cb247459ad1501bfcab",
+    "stored_jsonl_rows": 102,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/deepml_logic_functional_technical_corpus_10000.jsonl.gz",
+    "current_sha256": "57bd884aa0cca746a8d0e38b754d21a84547c26bbe39b9bee98482c6b4f0f666",
+    "source_sha256": "ee667927f277132c64cf6e1affa072825c40155c89ac7f28aff5d7eee9c8355b",
+    "stored_jsonl_rows": 10000,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_00001_00500.jsonl.gz",
+    "current_sha256": "a66033bebaaa05125bf7999a5ba040ce6c4e0524c5449f2afec1abe37daa4c93",
+    "source_sha256": "a66033bebaaa05125bf7999a5ba040ce6c4e0524c5449f2afec1abe37daa4c93",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_00501_01000.jsonl.gz",
+    "current_sha256": "d391b231999d4ad48597ab9d2b76af2ee6a04b223736a6ecdd533eb567d39c05",
+    "source_sha256": "d391b231999d4ad48597ab9d2b76af2ee6a04b223736a6ecdd533eb567d39c05",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_01001_01500.jsonl.gz",
+    "current_sha256": "41d225b79d8d9c03773fb64e8448025395e7622be6450d4d198410370a3d3cee",
+    "source_sha256": "41d225b79d8d9c03773fb64e8448025395e7622be6450d4d198410370a3d3cee",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_01501_02000.jsonl.gz",
+    "current_sha256": "f52cd83aaf7d35bf907c68f9eec05a22ce46f3e4fc7a3476258b8b20e62b408d",
+    "source_sha256": "f52cd83aaf7d35bf907c68f9eec05a22ce46f3e4fc7a3476258b8b20e62b408d",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_02001_02500.jsonl.gz",
+    "current_sha256": "5b677e56c53dc91bacf91e77e7f655ebf0ace8f9275e3b4842bd1e7513bd754b",
+    "source_sha256": "5b677e56c53dc91bacf91e77e7f655ebf0ace8f9275e3b4842bd1e7513bd754b",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_02501_03000.jsonl.gz",
+    "current_sha256": "77cd6dda7c89a8bedc1882e09584e79cb38e527346a8cedb65c5b01bc1633612",
+    "source_sha256": "77cd6dda7c89a8bedc1882e09584e79cb38e527346a8cedb65c5b01bc1633612",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_03001_03500.jsonl.gz",
+    "current_sha256": "5bbe801f5604d3e3d6a36f99f6f7290b166dc1205f7c2aaa5fb433e96ba221f6",
+    "source_sha256": "5bbe801f5604d3e3d6a36f99f6f7290b166dc1205f7c2aaa5fb433e96ba221f6",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_03501_04000.jsonl.gz",
+    "current_sha256": "0950c4fd7ef81d6bcc9437e92de7d17045128994f504dc632f7eaace46fe01f1",
+    "source_sha256": "0950c4fd7ef81d6bcc9437e92de7d17045128994f504dc632f7eaace46fe01f1",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_04001_04500.jsonl.gz",
+    "current_sha256": "e4d2137bd84a2022a43dbe46bd9852f09e598f161129f488c2276bb7a34b3cd1",
+    "source_sha256": "e4d2137bd84a2022a43dbe46bd9852f09e598f161129f488c2276bb7a34b3cd1",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_04501_05000.jsonl.gz",
+    "current_sha256": "2e2b96ecc101e23846688bc0729312486c701c15802f3c41fb02b3af03d36356",
+    "source_sha256": "2e2b96ecc101e23846688bc0729312486c701c15802f3c41fb02b3af03d36356",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_05001_05500.jsonl.gz",
+    "current_sha256": "a28d148a97d0659ae7e30930106a82102c3d783a459f56305a7e44339d8be274",
+    "source_sha256": "a28d148a97d0659ae7e30930106a82102c3d783a459f56305a7e44339d8be274",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_05501_06000.jsonl.gz",
+    "current_sha256": "caa0fbc4b05325342ea978062e77f270af10302a53a67615e0a5bceed302fd2b",
+    "source_sha256": "caa0fbc4b05325342ea978062e77f270af10302a53a67615e0a5bceed302fd2b",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_06001_06500.jsonl.gz",
+    "current_sha256": "532bc9efe718f45974f00ed8a5914d47bbb87887662484a677dde88e7dc83c77",
+    "source_sha256": "532bc9efe718f45974f00ed8a5914d47bbb87887662484a677dde88e7dc83c77",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_06501_07000.jsonl.gz",
+    "current_sha256": "cd03d1d0a6327dbe87c694ee67d1b1c49724cd1aa85f1489474fcc1ba149b3fb",
+    "source_sha256": "cd03d1d0a6327dbe87c694ee67d1b1c49724cd1aa85f1489474fcc1ba149b3fb",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_07001_07500.jsonl.gz",
+    "current_sha256": "c520afb3645a6177806cc3f2c7b4b9e9eb546b48c521e97c9c726c0d3d681f2b",
+    "source_sha256": "c520afb3645a6177806cc3f2c7b4b9e9eb546b48c521e97c9c726c0d3d681f2b",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_07501_08000.jsonl.gz",
+    "current_sha256": "7b992384ecc852e66c3f72354c6606d54025aa6f6fc6f71bd1236605ab44e30d",
+    "source_sha256": "7b992384ecc852e66c3f72354c6606d54025aa6f6fc6f71bd1236605ab44e30d",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_08001_08500.jsonl.gz",
+    "current_sha256": "75a197bf0c53a3fd90a348e65834264aa5020f49f99fa5118c0baeed055e65e5",
+    "source_sha256": "75a197bf0c53a3fd90a348e65834264aa5020f49f99fa5118c0baeed055e65e5",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_08501_09000.jsonl.gz",
+    "current_sha256": "e2126118253366de45005572f0d48268768466efb37b52a47449fd29a2e3e2aa",
+    "source_sha256": "e2126118253366de45005572f0d48268768466efb37b52a47449fd29a2e3e2aa",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_09001_09500.jsonl.gz",
+    "current_sha256": "1dfb5e75e70647fe6b36787678bbbf62c290e502a47c6350a5b7cba4de028b47",
+    "source_sha256": "1dfb5e75e70647fe6b36787678bbbf62c290e502a47c6350a5b7cba4de028b47",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/shards/DMLL_09501_10000.jsonl.gz",
+    "current_sha256": "a86f9e0c7570bd695e5806274fcbc1b5d629354efc1c4a8278f5b7b9e2fac779",
+    "source_sha256": "a86f9e0c7570bd695e5806274fcbc1b5d629354efc1c4a8278f5b7b9e2fac779",
+    "stored_jsonl_rows": 500,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/bootstrap/bootstrap_records.jsonl",
+    "current_sha256": "97c14b03d3c33e5e82c2fdc4959a43aff60c8d81ec826f40eef9ec41c6c2c46c",
+    "source_sha256": "97c14b03d3c33e5e82c2fdc4959a43aff60c8d81ec826f40eef9ec41c6c2c46c",
+    "stored_jsonl_rows": 47,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_00001_00250.jsonl",
+    "current_sha256": "49ea455a1217a55160552223e6bfc55df73527ffbe3c3756e2c69bd1578daae0",
+    "source_sha256": "49ea455a1217a55160552223e6bfc55df73527ffbe3c3756e2c69bd1578daae0",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_00251_00500.jsonl",
+    "current_sha256": "36555cd35e72b21260640c73a5b53069a8d30ee64d4943c02306cc0933d41203",
+    "source_sha256": "36555cd35e72b21260640c73a5b53069a8d30ee64d4943c02306cc0933d41203",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_00501_00750.jsonl",
+    "current_sha256": "1d825acf6b63b6cb6bd889fc4dbeea5501aa1637d232ac93221f69d8f23197fa",
+    "source_sha256": "1d825acf6b63b6cb6bd889fc4dbeea5501aa1637d232ac93221f69d8f23197fa",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_00751_01000.jsonl",
+    "current_sha256": "3ad2f457ee4ba821b7c9ad74b0c938bb24a430a88590bf6903b42b93d05d72a6",
+    "source_sha256": "3ad2f457ee4ba821b7c9ad74b0c938bb24a430a88590bf6903b42b93d05d72a6",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_01001_01250.jsonl",
+    "current_sha256": "16e8feaf7da2d65c2d0b15ea8d97969825a88c407a393ac0e40e896108b5c52b",
+    "source_sha256": "16e8feaf7da2d65c2d0b15ea8d97969825a88c407a393ac0e40e896108b5c52b",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_01251_01500.jsonl",
+    "current_sha256": "bd1b0c1fa03d7a0521be0ed70a86b528528696373a57e32beabf557021b63900",
+    "source_sha256": "bd1b0c1fa03d7a0521be0ed70a86b528528696373a57e32beabf557021b63900",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_01501_01750.jsonl",
+    "current_sha256": "131c0aa22ab84e12d237a5bc00690de1bd5171468d18964a86d5d7899946221f",
+    "source_sha256": "131c0aa22ab84e12d237a5bc00690de1bd5171468d18964a86d5d7899946221f",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_01751_02000.jsonl",
+    "current_sha256": "f0abc28af08d38ec1847cb29a43bed5ebdba63838ef3406f8caad8ab7bda305c",
+    "source_sha256": "f0abc28af08d38ec1847cb29a43bed5ebdba63838ef3406f8caad8ab7bda305c",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_02001_02250.jsonl",
+    "current_sha256": "be22751e0dd14aa4dd900ff5ddf773241fa8b0c4d1eef081ae02f15145ee151b",
+    "source_sha256": "be22751e0dd14aa4dd900ff5ddf773241fa8b0c4d1eef081ae02f15145ee151b",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_02251_02500.jsonl",
+    "current_sha256": "729c3749a54ac47524293f80b44ce3921d3bbe48f1119e118104c74246fb97f5",
+    "source_sha256": "729c3749a54ac47524293f80b44ce3921d3bbe48f1119e118104c74246fb97f5",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_02501_02750.jsonl",
+    "current_sha256": "8de52ef8d9c552de9e6957227bc9d4367b38f5ecf92954276b84bcc594f4dc85",
+    "source_sha256": "8de52ef8d9c552de9e6957227bc9d4367b38f5ecf92954276b84bcc594f4dc85",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_02751_03000.jsonl",
+    "current_sha256": "82ceb0a396ae55ccbe2f41e0f56926d2f8328cf2af27e61526f14520471a21ff",
+    "source_sha256": "82ceb0a396ae55ccbe2f41e0f56926d2f8328cf2af27e61526f14520471a21ff",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_03001_03250.jsonl",
+    "current_sha256": "48c6125df13f5f1b7df8b33c842d7494ba63c66cd002dc13f934c99cffd4652c",
+    "source_sha256": "48c6125df13f5f1b7df8b33c842d7494ba63c66cd002dc13f934c99cffd4652c",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_03251_03500.jsonl",
+    "current_sha256": "10a825051bbd25f8c7a6b33317f69479164f934f03b570df2992796b21562367",
+    "source_sha256": "10a825051bbd25f8c7a6b33317f69479164f934f03b570df2992796b21562367",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_03501_03750.jsonl",
+    "current_sha256": "4fa2ac31cd21adacb3cffd0c2ea9616d97929a6a66e55c6184e0f8a04be2c4fb",
+    "source_sha256": "4fa2ac31cd21adacb3cffd0c2ea9616d97929a6a66e55c6184e0f8a04be2c4fb",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_03751_04000.jsonl",
+    "current_sha256": "8ee62e955b575c24fa25552ef38259b93f43b8ef6a2c6b676fcc5f8013c3d039",
+    "source_sha256": "8ee62e955b575c24fa25552ef38259b93f43b8ef6a2c6b676fcc5f8013c3d039",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_04001_04250.jsonl",
+    "current_sha256": "b6a7062425c0179157ce2fd6ff85ed457d2064b7e2455a3cde635b5b370c3718",
+    "source_sha256": "b6a7062425c0179157ce2fd6ff85ed457d2064b7e2455a3cde635b5b370c3718",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_04251_04500.jsonl",
+    "current_sha256": "dbea1f2405d8186bd71108450dc6e1279a05701c91a3a9f1eccca10a3e2d04da",
+    "source_sha256": "dbea1f2405d8186bd71108450dc6e1279a05701c91a3a9f1eccca10a3e2d04da",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_04501_04750.jsonl",
+    "current_sha256": "3182ef886001afedae944fdf93a505e5bcacf073a25246ceb45c94c1fe59e58e",
+    "source_sha256": "3182ef886001afedae944fdf93a505e5bcacf073a25246ceb45c94c1fe59e58e",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_04751_05000.jsonl",
+    "current_sha256": "8d905b810276deb75f66a5ce2d661dabf5313220e097325b8deafc2b5c77737c",
+    "source_sha256": "8d905b810276deb75f66a5ce2d661dabf5313220e097325b8deafc2b5c77737c",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_05001_05250.jsonl",
+    "current_sha256": "4a99a963c97a2f87a564c0d1d9140fcb3e4696bba19835b5613d09648268a42e",
+    "source_sha256": "4a99a963c97a2f87a564c0d1d9140fcb3e4696bba19835b5613d09648268a42e",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_05251_05500.jsonl",
+    "current_sha256": "de96bdf0c53d2196286f028a0d95b241bb2db0c1bced342767166dee3ce5e601",
+    "source_sha256": "de96bdf0c53d2196286f028a0d95b241bb2db0c1bced342767166dee3ce5e601",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_05501_05750.jsonl",
+    "current_sha256": "8d54488687e65d24aef9c87517289b3ad239e80db44f07fd9583566af29b59b7",
+    "source_sha256": "8d54488687e65d24aef9c87517289b3ad239e80db44f07fd9583566af29b59b7",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_05751_06000.jsonl",
+    "current_sha256": "e1ebe41a642384efc0be4d9085dbd6c161b100c9b0f5728e5b9e1f493e624212",
+    "source_sha256": "e1ebe41a642384efc0be4d9085dbd6c161b100c9b0f5728e5b9e1f493e624212",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_06001_06250.jsonl",
+    "current_sha256": "ecd7296dbb6eda8749adbbad5a1e856f0f0b489a94652b561e0a0a1c7499ba7f",
+    "source_sha256": "ecd7296dbb6eda8749adbbad5a1e856f0f0b489a94652b561e0a0a1c7499ba7f",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_06251_06500.jsonl",
+    "current_sha256": "8ffe424a648aecceea9b4c78a982677482441d38effc36cc87ff16dda2858127",
+    "source_sha256": "8ffe424a648aecceea9b4c78a982677482441d38effc36cc87ff16dda2858127",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_06501_06750.jsonl",
+    "current_sha256": "48e3c44a2b2ba1f842fefb8cd5fd989807e256e08a398aa1b1ff671434408acf",
+    "source_sha256": "48e3c44a2b2ba1f842fefb8cd5fd989807e256e08a398aa1b1ff671434408acf",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_06751_07000.jsonl",
+    "current_sha256": "d4c6f7bebb8fb056b265efa648e666fa570ec9fd29aeb2208487344d0207bf62",
+    "source_sha256": "d4c6f7bebb8fb056b265efa648e666fa570ec9fd29aeb2208487344d0207bf62",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_07001_07250.jsonl",
+    "current_sha256": "58a301fdb6bf22ff46410d09b4e55f320531a750de2d7aa79989b48cf17077e2",
+    "source_sha256": "58a301fdb6bf22ff46410d09b4e55f320531a750de2d7aa79989b48cf17077e2",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_07251_07500.jsonl",
+    "current_sha256": "dea0e502c36816d4a50997ec2d6f88568f6601fbcdd2654a23b38d54ac81996c",
+    "source_sha256": "dea0e502c36816d4a50997ec2d6f88568f6601fbcdd2654a23b38d54ac81996c",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_07501_07750.jsonl",
+    "current_sha256": "404d073cf3650ecdee3876149fb6c8013151224589697b2fcc1f6530a6327f10",
+    "source_sha256": "404d073cf3650ecdee3876149fb6c8013151224589697b2fcc1f6530a6327f10",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_07751_08000.jsonl",
+    "current_sha256": "935f330217ca11660207488e4614ebbed86eafd9a711368ed8ac5a4d65844e5d",
+    "source_sha256": "935f330217ca11660207488e4614ebbed86eafd9a711368ed8ac5a4d65844e5d",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_08001_08250.jsonl",
+    "current_sha256": "7e0e63a9144bdb5572531b4d85fe80cd9c724c9d86e61d21b85e5ca8bb629eda",
+    "source_sha256": "7e0e63a9144bdb5572531b4d85fe80cd9c724c9d86e61d21b85e5ca8bb629eda",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_08251_08500.jsonl",
+    "current_sha256": "a227d88b9bbbdd4a057958e16fb70fdb45001d8445cfe2e0f7bbc15e78b6bc8f",
+    "source_sha256": "a227d88b9bbbdd4a057958e16fb70fdb45001d8445cfe2e0f7bbc15e78b6bc8f",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_08501_08750.jsonl",
+    "current_sha256": "9c9714bb6281cbdc31b23462848a85d6386f5a949df84e927368ccd90012e05e",
+    "source_sha256": "9c9714bb6281cbdc31b23462848a85d6386f5a949df84e927368ccd90012e05e",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_08751_09000.jsonl",
+    "current_sha256": "2476e50c6f5e91a54a0677672513c6101001d61debf1389fa2224525b5e99edc",
+    "source_sha256": "2476e50c6f5e91a54a0677672513c6101001d61debf1389fa2224525b5e99edc",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_09001_09250.jsonl",
+    "current_sha256": "c18c630a918837d27d749b36909279cd481f8d08a0844767ae3d73ae4f0a9ec1",
+    "source_sha256": "c18c630a918837d27d749b36909279cd481f8d08a0844767ae3d73ae4f0a9ec1",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_09251_09500.jsonl",
+    "current_sha256": "de2141243d4fe850efb28b9a59ae07cd8d0864c028f1e07351d0d5bf6dd425ee",
+    "source_sha256": "de2141243d4fe850efb28b9a59ae07cd8d0864c028f1e07351d0d5bf6dd425ee",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_09501_09750.jsonl",
+    "current_sha256": "0d2ef66893873fb6b32dc644368abd10af8ecc6367a029365173e8d5b3e47c27",
+    "source_sha256": "0d2ef66893873fb6b32dc644368abd10af8ecc6367a029365173e8d5b3e47c27",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/examples/DMLL_09751_10000.jsonl",
+    "current_sha256": "967dee39da5ad0a47bc881133d843a4bf222ee46a915742b348c267d50313fa1",
+    "source_sha256": "967dee39da5ad0a47bc881133d843a4bf222ee46a915742b348c267d50313fa1",
+    "stored_jsonl_rows": 251,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/validation/conformance_cases.jsonl",
+    "current_sha256": "95b0adbff8173d91b3fe012caf7069e27503692421287bb9bcd5e3d37fd9a12c",
+    "source_sha256": "95b0adbff8173d91b3fe012caf7069e27503692421287bb9bcd5e3d37fd9a12c",
+    "stored_jsonl_rows": 101,
+    "role": "historical_or_reconstructed_reference",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/validation/conformance_cases.jsonl",
+    "current_sha256": "95b0adbff8173d91b3fe012caf7069e27503692421287bb9bcd5e3d37fd9a12c",
+    "source_sha256": "95b0adbff8173d91b3fe012caf7069e27503692421287bb9bcd5e3d37fd9a12c",
+    "stored_jsonl_rows": 101,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  }
+]

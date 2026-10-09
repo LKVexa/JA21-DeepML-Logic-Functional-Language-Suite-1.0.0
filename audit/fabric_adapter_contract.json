@@ -1,0 +1,16 @@
+{
+  "profile": "deepml.logic",
+  "proposed_contribution": "Pure functions, predicates, rules and proof terms",
+  "reuse_boundary": "Check actual inference and proof obligations; labels are modeled.",
+  "source_archive_sha256": "ae85b50928e2942dc88bcac1932ac20525af5e4f7013ab6e78ec9a0c22312f9d",
+  "source_evidence_paths": [
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/grammar/grammar.ebnf",
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/grammar/grammar_specification.md",
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/source_original/language_suite_specification.md",
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/specification/GRAMMAR_SPECIFICATION.md",
+    "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/specification/LANGUAGE_SPECIFICATION.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

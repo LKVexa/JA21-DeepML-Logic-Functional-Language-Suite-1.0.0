@@ -1,0 +1,12 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_02506
+policy pure_by_default
+policy no_network
+theorem identity_composition<T>(f:T->T) : compose(identity,f) == f
+proof identity_composition { extensionality x simplify identity qed }
+constraint schedule(X,Y) { X >= 0 Y >= X + 2 }
+predicate reachable(A,B)
+rule reachable(A,B) :- edge(A,B)
+rule reachable(A,C) :- edge(A,B), reachable(B,C)
+infer reachable("start", Goal) strategy best_first memoize true
+integrate graph Knowledge02506 from facts and rules

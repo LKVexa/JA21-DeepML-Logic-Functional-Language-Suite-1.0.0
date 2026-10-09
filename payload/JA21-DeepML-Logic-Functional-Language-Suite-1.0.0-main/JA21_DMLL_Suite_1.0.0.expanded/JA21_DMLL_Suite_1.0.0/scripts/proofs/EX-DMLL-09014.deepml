@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09014
+policy pure_by_default
+policy no_network
+module Logic09014 { theorem false_is_true : False == True proof { assume qed } }
+certify logic Logic09014 profile strict

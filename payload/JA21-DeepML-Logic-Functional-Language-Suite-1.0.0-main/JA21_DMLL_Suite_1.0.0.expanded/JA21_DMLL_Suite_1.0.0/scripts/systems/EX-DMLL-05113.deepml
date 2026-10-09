@@ -1,0 +1,14 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_05113
+policy pure_by_default
+policy no_network
+knowledge_base Logic05113 {
+  fact scene("PortalScene13")
+  fact timeline("Sequence4")
+  rule can_open(P) :- authorized(P), stable_scene(P)
+  rule execute_sequence(S) :- can_open(portal_of(S)), certified(S)
+}
+plan PortalPlan05113 goal entered_destination actions [authorize, open_portal, play_timeline, traverse]
+transform SceneRuleSet with proof { preserve semantics using theorem identity_composition }
+workflow SymbolicNeural05113 { symbolic: Logic05113 neural: deepml.core::Graph05113 bridge: typed }
+certify logic Logic05113 using proof_carrying

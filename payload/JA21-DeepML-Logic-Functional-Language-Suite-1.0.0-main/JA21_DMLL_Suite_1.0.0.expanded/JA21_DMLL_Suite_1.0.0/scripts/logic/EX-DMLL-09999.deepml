@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09999
+policy pure_by_default
+policy no_network
+module Logic09999 { fact alive(a) fact not alive(a) }
+certify logic Logic09999 profile strict

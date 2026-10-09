@@ -1,0 +1,64 @@
+{
+  "repository": "JA21-DeepML-Logic-Functional-Language-Suite-1.0.0",
+  "copyright": "JA21-DeepML-Logic-Functional-Language-Suite-1.0.0 (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "7a709838f5e99249ad19c6bba8940983aae926e0f704964eae5ee5ea45906b26",
+      "current_bytes": 121
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "d894b5fdbf08576dc90cc97d27dd3f3d4ca437d78792618c83e9c04c42509af6",
+      "current_bytes": 35271
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "0543f6826e375a5465a6712b6502aa8aa3651b54a21a1561671532ee62553d35",
+      "current_bytes": 390
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "28f0b085e5c51ee533bb58ebde4a091994080ad0bbd0c81bcdc4ec9b158f6cd3",
+      "original_bytes": 347803,
+      "current_sha256": "dcf3785816c99eaf9408676fc885c050ba36e5c390575e2aca07df4fee272072",
+      "current_bytes": 341868
+    },
+    {
+      "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/LICENSE.txt",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_bytes": 11358,
+      "current_sha256": "d894b5fdbf08576dc90cc97d27dd3f3d4ca437d78792618c83e9c04c42509af6",
+      "current_bytes": 35271
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "audit/updated_manifest.json",
+      "covered_changes": [
+        "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/LICENSE.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}

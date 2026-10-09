@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09509
+policy pure_by_default
+policy no_network
+module Logic09509 { pure fn f()->Text = network.fetch("x") }
+certify logic Logic09509 profile strict

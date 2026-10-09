@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ja21:dmll:technical-corpus-record:1.0.0",
+  "title": "JA21 DeepML Logic/Functional Technical Corpus Record",
+  "type": "object",
+  "required": [
+    "id",
+    "sequence",
+    "language",
+    "language_name",
+    "language_version",
+    "topic",
+    "tier",
+    "tier_name",
+    "difficulty",
+    "example_class",
+    "expected_stage",
+    "source",
+    "source_hash",
+    "semantic_hash",
+    "ast",
+    "semantic_interpretation",
+    "compiler_representation",
+    "runtime_representation",
+    "validation_result",
+    "technical_explanation",
+    "suite_id",
+    "source_hash_verified",
+    "_deepml_audit"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^EX-DMLL-[0-9]{5}$"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "topic": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6
+    },
+    "tier_name": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "example_class": {
+      "enum": [
+        "positive",
+        "negative",
+        "certification"
+      ]
+    },
+    "expected_stage": {
+      "enum": [
+        "certification",
+        "runtime",
+        "safety_gate",
+        "semantic_validation",
+        "type_check"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "semantic_hash": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "source_hash_verified": {
+      "type": "boolean"
+    },
+    "validation_result": {
+      "type": "object"
+    },
+    "suite_id": {
+      "const": "JA21-DMLL-1.0.0"
+    },
+    "_deepml_audit": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "profile",
+        "execution_state",
+        "expected_outcome",
+        "observed_result",
+        "native_execution_eligible",
+        "source_sha256",
+        "source_hash_verified",
+        "qualification",
+        "warnings",
+        "authority"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "deepml-audit-0.1"
+        },
+        "profile": {
+          "const": "deepml.logic"
+        },
+        "execution_state": {
+          "const": "modeled_not_executed"
+        },
+        "expected_outcome": {
+          "type": "string"
+        },
+        "observed_result": {
+          "type": "null"
+        },
+        "native_execution_eligible": {
+          "const": false
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "source_hash_verified": {
+          "type": "boolean"
+        },
+        "qualification": {
+          "enum": [
+            "modeled_expectation_only",
+            "quarantined_metadata_conflict"
+          ]
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "code",
+              "path"
+            ]
+          }
+        },
+        "authority": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "$comment": " Updated publication records require modeled-evidence qualification. No native conformance is asserted."
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/deepml_logic_functional_technical_corpus_10000.jsonl.gz",
+    "status": "changed",
+    "source_sha256": "ee667927f277132c64cf6e1affa072825c40155c89ac7f28aff5d7eee9c8355b",
+    "updated_sha256": "57bd884aa0cca746a8d0e38b754d21a84547c26bbe39b9bee98482c6b4f0f666"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/technical/record.schema.json",
+    "status": "changed",
+    "source_sha256": "fc39357bdd3bd12067be81b5276ca2a26ea4e9be5cfb94944903e7e98af3b9ee",
+    "updated_sha256": "05545fba00f9b3c61cc612523e2a24f3d64a6a6a96d7acacfd57f2ac0ae3a4d3"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/README.md",
+    "status": "changed",
+    "source_sha256": "13d8863076a06593d61cf2bd844000565fe072e5446da0c88fcaf20d942f2cb8",
+    "updated_sha256": "cefa85734b12cc4ad2224639ac39b61b926d763d880447b59da51b160245feab"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/GRAMMAR_AND_EVIDENCE_ERRATA.md",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "eb95c425f01563fc0d6fc5518a8e3684486de491c6e544bfe5bdb81254099242"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/grammar_gaps.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1459390d22995aaf58f57a6fdee546ce3ba45a534d6d6331b29734e270abf303"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/LEXICAL_COMPLETION_DRAFT.ebnf",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "5d2f9aec0ca5c706dd2447c28d8708df4a58c44a915bdc88c0753cf3c9dcc2a3"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/profile.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "8f6cf03741ffc74a318808650ef1d8af941b40300ca719c0108a5e00203883ff"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/qualification.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "75f2338aa1abfa5575a45d0c187b57f6a8844a0591bc0bd742921c7e4b5e1ea0"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/qualification_summary.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "a264d6394fc71076368127a94b688c7e4934bdbf9313714f15a49a87f5be4056"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/requirements.txt",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "83979de442b6f367911092c24acdc47cd538c73a550a2e723ba89c8ebe06157d"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/SOURCE_RECORD_PRESERVATION.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "965a8528fb4a9d80933f9eb8edba1f80fc633a3a9e9276ea89f03b847e7706e3"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/test_qualification.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "06924ca4e5d121f56fbdd2b270b5676c61db5f3722edaec7496f6f9c15f102b9"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/TEST_RESULTS.txt",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3846bf2c68b0847291fa024dc478c8a2b8624b5886710ed19a0dac17fb260f1c"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/UPGRADE_VALIDATION.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "79218bec6ac109073a32058ed6296de56e01e6c360757f3b87b13b6210d66dbc"
+  },
+  {
+    "path": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/upgrades_deepml/validate_upgraded.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cb467f8aa211c471ab13710aae27044ee8e77273010dcfae10e55a1f21ce7973"
+  }
+]

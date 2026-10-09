@@ -1,0 +1,12 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_00616
+policy pure_by_default
+policy no_network
+type Option<T> = Some(T) | None
+let value4: Int = 10
+fn identity<T>(x: T) -> T = x
+fn map_option<T,U>(f: T -> U, x: Option<T>) -> Option<U> = match x { Some(v) => Some(f(v)) None => None }
+predicate even(x: Int) = x % 2 == 0
+fact seed(616)
+rule valid_seed(x) :- seed(x), even(x)
+assert proof_hash == "invalid-00616"

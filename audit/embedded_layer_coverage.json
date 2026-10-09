@@ -1,0 +1,966 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/bootstrap/bootstrap_records.jsonl",
+      "content_bytes": 74951,
+      "content_sha256": "97c14b03d3c33e5e82c2fdc4959a43aff60c8d81ec826f40eef9ec41c6c2c46c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 47,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/bootstrap/bootstrap_records.md",
+      "content_bytes": 66840,
+      "content_sha256": "1631e2fc41386516c66f5b760cfa7b1c1970238af304ee82f0d4291251193a98",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/compiler/contract.json",
+      "content_bytes": 6981,
+      "content_sha256": "e70e21e1c4c351324f37c8c3eb74aa309a4d314f84c91fdaac5baa944f98ef61",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/coverage.json",
+      "content_bytes": 8334,
+      "content_sha256": "440dae81feb4400e286c3d53369814700490bd3f8751e64a89b5de8e13a1597c",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_00001_00250.jsonl",
+      "content_bytes": 1399903,
+      "content_sha256": "49ea455a1217a55160552223e6bfc55df73527ffbe3c3756e2c69bd1578daae0",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_00251_00500.jsonl",
+      "content_bytes": 1400314,
+      "content_sha256": "36555cd35e72b21260640c73a5b53069a8d30ee64d4943c02306cc0933d41203",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_00501_00750.jsonl",
+      "content_bytes": 1400133,
+      "content_sha256": "1d825acf6b63b6cb6bd889fc4dbeea5501aa1637d232ac93221f69d8f23197fa",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 8,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_00751_01000.jsonl",
+      "content_bytes": 1399951,
+      "content_sha256": "3ad2f457ee4ba821b7c9ad74b0c938bb24a430a88590bf6903b42b93d05d72a6",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 9,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_01001_01250.jsonl",
+      "content_bytes": 1432241,
+      "content_sha256": "16e8feaf7da2d65c2d0b15ea8d97969825a88c407a393ac0e40e896108b5c52b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 10,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_01251_01500.jsonl",
+      "content_bytes": 1432301,
+      "content_sha256": "bd1b0c1fa03d7a0521be0ed70a86b528528696373a57e32beabf557021b63900",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 11,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_01501_01750.jsonl",
+      "content_bytes": 1432560,
+      "content_sha256": "131c0aa22ab84e12d237a5bc00690de1bd5171468d18964a86d5d7899946221f",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 12,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_01751_02000.jsonl",
+      "content_bytes": 1432257,
+      "content_sha256": "f0abc28af08d38ec1847cb29a43bed5ebdba63838ef3406f8caad8ab7bda305c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 13,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_02001_02250.jsonl",
+      "content_bytes": 1432482,
+      "content_sha256": "be22751e0dd14aa4dd900ff5ddf773241fa8b0c4d1eef081ae02f15145ee151b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 14,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_02251_02500.jsonl",
+      "content_bytes": 1432302,
+      "content_sha256": "729c3749a54ac47524293f80b44ce3921d3bbe48f1119e118104c74246fb97f5",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 15,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_02501_02750.jsonl",
+      "content_bytes": 1453947,
+      "content_sha256": "8de52ef8d9c552de9e6957227bc9d4367b38f5ecf92954276b84bcc594f4dc85",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 16,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_02751_03000.jsonl",
+      "content_bytes": 1454407,
+      "content_sha256": "82ceb0a396ae55ccbe2f41e0f56926d2f8328cf2af27e61526f14520471a21ff",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 17,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_03001_03250.jsonl",
+      "content_bytes": 1454050,
+      "content_sha256": "48c6125df13f5f1b7df8b33c842d7494ba63c66cd002dc13f934c99cffd4652c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 18,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_03251_03500.jsonl",
+      "content_bytes": 1454144,
+      "content_sha256": "10a825051bbd25f8c7a6b33317f69479164f934f03b570df2992796b21562367",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 19,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_03501_03750.jsonl",
+      "content_bytes": 1454139,
+      "content_sha256": "4fa2ac31cd21adacb3cffd0c2ea9616d97929a6a66e55c6184e0f8a04be2c4fb",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 20,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_03751_04000.jsonl",
+      "content_bytes": 1454399,
+      "content_sha256": "8ee62e955b575c24fa25552ef38259b93f43b8ef6a2c6b676fcc5f8013c3d039",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 21,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_04001_04250.jsonl",
+      "content_bytes": 1453914,
+      "content_sha256": "b6a7062425c0179157ce2fd6ff85ed457d2064b7e2455a3cde635b5b370c3718",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 22,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_04251_04500.jsonl",
+      "content_bytes": 1454081,
+      "content_sha256": "dbea1f2405d8186bd71108450dc6e1279a05701c91a3a9f1eccca10a3e2d04da",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 23,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_04501_04750.jsonl",
+      "content_bytes": 1454332,
+      "content_sha256": "3182ef886001afedae944fdf93a505e5bcacf073a25246ceb45c94c1fe59e58e",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 24,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_04751_05000.jsonl",
+      "content_bytes": 1454167,
+      "content_sha256": "8d905b810276deb75f66a5ce2d661dabf5313220e097325b8deafc2b5c77737c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 25,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_05001_05250.jsonl",
+      "content_bytes": 1512567,
+      "content_sha256": "4a99a963c97a2f87a564c0d1d9140fcb3e4696bba19835b5613d09648268a42e",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 26,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_05251_05500.jsonl",
+      "content_bytes": 1512443,
+      "content_sha256": "de96bdf0c53d2196286f028a0d95b241bb2db0c1bced342767166dee3ce5e601",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 27,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_05501_05750.jsonl",
+      "content_bytes": 1512895,
+      "content_sha256": "8d54488687e65d24aef9c87517289b3ad239e80db44f07fd9583566af29b59b7",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 28,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_05751_06000.jsonl",
+      "content_bytes": 1512264,
+      "content_sha256": "e1ebe41a642384efc0be4d9085dbd6c161b100c9b0f5728e5b9e1f493e624212",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 29,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_06001_06250.jsonl",
+      "content_bytes": 1512720,
+      "content_sha256": "ecd7296dbb6eda8749adbbad5a1e856f0f0b489a94652b561e0a0a1c7499ba7f",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 30,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_06251_06500.jsonl",
+      "content_bytes": 1512552,
+      "content_sha256": "8ffe424a648aecceea9b4c78a982677482441d38effc36cc87ff16dda2858127",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 31,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_06501_06750.jsonl",
+      "content_bytes": 1512565,
+      "content_sha256": "48e3c44a2b2ba1f842fefb8cd5fd989807e256e08a398aa1b1ff671434408acf",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 32,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_06751_07000.jsonl",
+      "content_bytes": 1512448,
+      "content_sha256": "d4c6f7bebb8fb056b265efa648e666fa570ec9fd29aeb2208487344d0207bf62",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 33,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_07001_07250.jsonl",
+      "content_bytes": 1512888,
+      "content_sha256": "58a301fdb6bf22ff46410d09b4e55f320531a750de2d7aa79989b48cf17077e2",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 34,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_07251_07500.jsonl",
+      "content_bytes": 1512267,
+      "content_sha256": "dea0e502c36816d4a50997ec2d6f88568f6601fbcdd2654a23b38d54ac81996c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 35,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_07501_07750.jsonl",
+      "content_bytes": 1437132,
+      "content_sha256": "404d073cf3650ecdee3876149fb6c8013151224589697b2fcc1f6530a6327f10",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 36,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_07751_08000.jsonl",
+      "content_bytes": 1436741,
+      "content_sha256": "935f330217ca11660207488e4614ebbed86eafd9a711368ed8ac5a4d65844e5d",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 37,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_08001_08250.jsonl",
+      "content_bytes": 1436961,
+      "content_sha256": "7e0e63a9144bdb5572531b4d85fe80cd9c724c9d86e61d21b85e5ca8bb629eda",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 38,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_08251_08500.jsonl",
+      "content_bytes": 1436546,
+      "content_sha256": "a227d88b9bbbdd4a057958e16fb70fdb45001d8445cfe2e0f7bbc15e78b6bc8f",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 39,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_08501_08750.jsonl",
+      "content_bytes": 1437132,
+      "content_sha256": "9c9714bb6281cbdc31b23462848a85d6386f5a949df84e927368ccd90012e05e",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 40,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_08751_09000.jsonl",
+      "content_bytes": 1436747,
+      "content_sha256": "2476e50c6f5e91a54a0677672513c6101001d61debf1389fa2224525b5e99edc",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 41,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_09001_09250.jsonl",
+      "content_bytes": 1333596,
+      "content_sha256": "c18c630a918837d27d749b36909279cd481f8d08a0844767ae3d73ae4f0a9ec1",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 42,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_09251_09500.jsonl",
+      "content_bytes": 1333906,
+      "content_sha256": "de2141243d4fe850efb28b9a59ae07cd8d0864c028f1e07351d0d5bf6dd425ee",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 43,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_09501_09750.jsonl",
+      "content_bytes": 1334344,
+      "content_sha256": "0d2ef66893873fb6b32dc644368abd10af8ecc6367a029365173e8d5b3e47c27",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 44,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/examples/DMLL_09751_10000.jsonl",
+      "content_bytes": 1333341,
+      "content_sha256": "967dee39da5ad0a47bc881133d843a4bf222ee46a915742b348c267d50313fa1",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 45,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/grammar/grammar.ebnf",
+      "content_bytes": 2529,
+      "content_sha256": "62c5d7167c2bfe180115ae8f6db3afe119eca39a8827e71b8a59a057018502e0",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 46,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/grammar/grammar_specification.md",
+      "content_bytes": 14388,
+      "content_sha256": "6c9e6582104c9a7396dd65a32c070b95f605d0b4ed366cf0e5376d4a616ed1b3",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 47,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/hashes.sha256",
+      "content_bytes": 5250,
+      "content_sha256": "523fbab5a6bc8d2a6e7be6b8f4f1cfd263cc9cfa5c5e62308017e0159d6b79d4",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 48,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/language_suite_specification.md",
+      "content_bytes": 11684,
+      "content_sha256": "507dbcc54710b86b037854c9a0e73535a2382fd843b5d07635eaf83484dc7b4d",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 49,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/learning/learning_modules.json",
+      "content_bytes": 21124,
+      "content_sha256": "b03b85d91a670cd696b1e41ee2a6a6645adceb0eba4b29037d56e201ea711d89",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 50,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/manifest.json",
+      "content_bytes": 8321,
+      "content_sha256": "f67a29a4c604cf382965bf88a3c3c34953c923faf66ff465a61c719c143d5a4a",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 51,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/mcrt/profile.schema.json",
+      "content_bytes": 6932,
+      "content_sha256": "e86fc25a26ecc3dc86b16ac84d38d7d18a9c09dc6b2db68d71eeab539cfa86e7",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 52,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/README.md",
+      "content_bytes": 2794,
+      "content_sha256": "aa7d1054a25b4a8c3c159418090e3c0f906eeb20334a0cf671cd91747f0bd9f0",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 53,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/runtime/contract.json",
+      "content_bytes": 6908,
+      "content_sha256": "6384ed0db5247ee65b5fc51b0148c3c9b1b565735a70d0c406542561908ee01d",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 54,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00001.deepml",
+      "content_bytes": 1711,
+      "content_sha256": "248143a8b3a6ba55e710f3a4fb7749531564443e1d375df8187f68fe737792ec",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 55,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00001.record.json",
+      "content_bytes": 14968,
+      "content_sha256": "3b99b6ce47db05fc3baecedbe787ff31b88358c2af2b0e5a89585759bc7b90a5",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 56,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00002.deepml",
+      "content_bytes": 1711,
+      "content_sha256": "ed2cda9f237d6fa41e0dd72ab777a57f7bf6891c821cba309ce7ed27894e80e1",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 57,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00002.record.json",
+      "content_bytes": 14911,
+      "content_sha256": "6529b69691e572b1dce182cd3e724ea04d15ea1ac9740f7677860215752ab1e2",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 58,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00003.deepml",
+      "content_bytes": 1711,
+      "content_sha256": "e92589e084450dd7557209114fe653aea0bb66c94caff7335cd605e1a19761d4",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 59,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00003.record.json",
+      "content_bytes": 15006,
+      "content_sha256": "6ea31c42000306e35e7e78fc6b65e7c2866190148e280080c989216af0c81278",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 60,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00004.deepml",
+      "content_bytes": 1711,
+      "content_sha256": "32f8204ea6ffcdea13027a0b7f16ab11ce4fd59b1fda372804b79793c96571f7",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 61,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00004.record.json",
+      "content_bytes": 15082,
+      "content_sha256": "0d5d6fc248cc718ff2bf23f8e65a34ae72992c86cc499cb799ee30177a41c72f",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 62,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00005.deepml",
+      "content_bytes": 1711,
+      "content_sha256": "e7348e22d44bf060a0b4fb0eef6ec38d3a9e7f2d234711e891be497d143e1f16",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 63,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-00005.record.json",
+      "content_bytes": 14970,
+      "content_sha256": "01955f20cb2f268750f1d29d530dd7f78d8a9be6aa272d17ea0a01eb808fe746",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 64,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01000.deepml",
+      "content_bytes": 1716,
+      "content_sha256": "ee6e1054907ec2582d611d4e7affb62286c8d99bb733278fe406c05bb8dcfc51",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 65,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01000.record.json",
+      "content_bytes": 14810,
+      "content_sha256": "898b378a3aa85078fe25917b6c57131983163f1f9b443015dfe1f8c21101ad7c",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 66,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01001.deepml",
+      "content_bytes": 1852,
+      "content_sha256": "e74a789fde2206fef83e96162b621efe3a042621fdd588d432cfba59e15c71fb",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 67,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01001.record.json",
+      "content_bytes": 15010,
+      "content_sha256": "dbfe3f4c1cd5e815cd540a817a47040be0a8b541b4d9d824691f766cf7363d33",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 68,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01002.deepml",
+      "content_bytes": 1852,
+      "content_sha256": "1c66b0401fcc15cc018b8d1bc547602034e2d5e00c3d09e49a7c8ec356c1299d",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 69,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-01002.record.json",
+      "content_bytes": 14991,
+      "content_sha256": "d72330fee0272088bafd563f8c7a02484f3b90a66d1c07ff6fe092b9524afb34",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 70,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02500.deepml",
+      "content_bytes": 1852,
+      "content_sha256": "5db6da9f354c62091bd656c41cffe1aea4acee834b5d7b75d2a2df4e11982d3a",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 71,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02500.record.json",
+      "content_bytes": 15067,
+      "content_sha256": "c00cdd75534c01ea630eda09ef629dba054d92f363b87fcb20e43ccb61d2a3c9",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 72,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02501.deepml",
+      "content_bytes": 1842,
+      "content_sha256": "2b2c91b043768015d7cd16bc7f1b10c8c98444ca11e25c52996e686adb0392c0",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 73,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02501.record.json",
+      "content_bytes": 15254,
+      "content_sha256": "e8c7cf17ab24b61806ee3c3949b60ca2bdfc90f1392ff8b13684a0eb7b14584f",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 74,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02502.deepml",
+      "content_bytes": 1879,
+      "content_sha256": "6e72baf450d73bb93e2b89a834c3ff619b82e8253b4411edeb50997b44739840",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 75,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-02502.record.json",
+      "content_bytes": 13692,
+      "content_sha256": "212a1114e175199af331e849445ccc093b2abfa88339844cf749df11f947d265",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 76,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05000.deepml",
+      "content_bytes": 1842,
+      "content_sha256": "7d33b5f15686fe5102ce21adc11b60138c48e123489ba08550801001d7fdb927",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 77,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05000.record.json",
+      "content_bytes": 15252,
+      "content_sha256": "22a36347ba8d01b0c1dc58be9e79da33455ec4a196953bbc0860d14c866eb17b",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 78,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05001.deepml",
+      "content_bytes": 1985,
+      "content_sha256": "3bd2a05afed5fd6bb58420a3634b4b3b2e26d5e217105c9194f07e2396e96e57",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 79,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05001.record.json",
+      "content_bytes": 15351,
+      "content_sha256": "ab8d7988207bcdcc1c3a4b24ea9ad47aa1ca8dac9d05d41e2ca7cd10a03ccdc2",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 80,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05002.deepml",
+      "content_bytes": 1986,
+      "content_sha256": "b5307a1dc0d1ce95890cbb94965238512b4e74ae33e0d26c2052fff41f011624",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 81,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-05002.record.json",
+      "content_bytes": 15335,
+      "content_sha256": "360f6914cc59cd84209b7627b7e9fc2de7a3ef1c159946bef74f145453692218",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 82,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07500.deepml",
+      "content_bytes": 1986,
+      "content_sha256": "28b80bd1679c83c844e6b80460e80981a04c7fbde70e7e4236f92424ba8e08db",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 83,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07500.record.json",
+      "content_bytes": 15449,
+      "content_sha256": "7538191789e2d60a72af03c1625f6c88074845248ce8351b467591636be8f367",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 84,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07501.deepml",
+      "content_bytes": 1875,
+      "content_sha256": "2cb88eee7dbf84006201809d9938146c2ce6105265ed696519de95328b070f27",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 85,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07501.record.json",
+      "content_bytes": 15226,
+      "content_sha256": "439e5107a2c3bfde14b04ca188cda6811b34614e6ac7e3b677ff0903a79325da",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 86,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07502.deepml",
+      "content_bytes": 1875,
+      "content_sha256": "f8254e1a8af5d8d08c0585a408a11660b94ea0d2e0ba6424f63a6a52da419eee",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 87,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-07502.record.json",
+      "content_bytes": 15194,
+      "content_sha256": "a3c8a403445dc273ffb86dfb85cb669bfc9977626836e8e06803a3cb646b69da",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 88,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09000.deepml",
+      "content_bytes": 1875,
+      "content_sha256": "d36908adeca27512327040aea1298d15d5164d540da7b8ad4458ed2a21483a07",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 89,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09000.record.json",
+      "content_bytes": 15081,
+      "content_sha256": "1e0f6857485eeb461b61c988771c568589e05400c066217c447f789ba7476443",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 90,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09001.deepml",
+      "content_bytes": 1547,
+      "content_sha256": "1d643fb2151afdb180b6508d8401d33ee365db6c710ed604b153ca7d8a11e122",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 91,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09001.record.json",
+      "content_bytes": 13279,
+      "content_sha256": "36b02deeb4d2f3dfd1997b72b0f1840de3f5832819fe8d1a6270b22259c14957",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 92,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09002.deepml",
+      "content_bytes": 1527,
+      "content_sha256": "c11d2a26fb2802ff6ff00f448fa874c9ca96dd0b86d73e08d93086f37a44253a",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 93,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09002.record.json",
+      "content_bytes": 13193,
+      "content_sha256": "d71d67722d935f8aa2ed0b03754ddc921a9a50a5f861b16f22574b57e714ace5",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 94,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09998.deepml",
+      "content_bytes": 1556,
+      "content_sha256": "5bd173d70a2029a7ce59b74623e339f4c405b5fdef2f11ffe792022b9b901780",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 95,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09998.record.json",
+      "content_bytes": 13208,
+      "content_sha256": "6a00d948e75f950e142c4879fb4cafae20380a0f497b54defab11603d02cacaf",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 96,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09999.deepml",
+      "content_bytes": 1529,
+      "content_sha256": "4ef22e74b0397d293eed0f8d82271eadfe2c8188abc4f8b7f5113585b2cca75e",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 97,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-09999.record.json",
+      "content_bytes": 13250,
+      "content_sha256": "72244d0c4387270dba6ee5b9c9e825f5a53d946a56732ff2d02ff48f8951aba3",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 98,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-10000.deepml",
+      "content_bytes": 1550,
+      "content_sha256": "5916a755726c9554e01225b27f685f236b6cb26fc63a38a5828ce398453a3dee",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 99,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/sample_scripts/EX-DMLL-10000.record.json",
+      "content_bytes": 13185,
+      "content_sha256": "546de164c38afca14df74717e10931c93e0a50c30bdf3645eb0ed05a2bf73628",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 100,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/semantic/operators.json",
+      "content_bytes": 24943,
+      "content_sha256": "bfcff14bf103ab1a7a6588821889ea51425872a5c8be26d296ffe09b3a06978e",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 101,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/validation/conformance_cases.jsonl",
+      "content_bytes": 89034,
+      "content_sha256": "95b0adbff8173d91b3fe012caf7069e27503692421287bb9bcd5e3d37fd9a12c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 101,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-DeepML-Logic-Functional-Language-Suite-1.0.0-main/JA21_DMLL_Suite_1.0.0.expanded/JA21_DMLL_Suite_1.0.0/corpus/source_wrapper/DeepML_Logic_Functional_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 102,
+      "original_id": "Corpora(2).zip::SCL_deepml_logic_Corpus_1.0/deepml_logic/validation/coverage_expectations.json",
+      "content_bytes": 7077,
+      "content_sha256": "6349c9038dce2e5fd4e8c6be4918b063401dd461b962e67aaf84618fd4bfb974",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

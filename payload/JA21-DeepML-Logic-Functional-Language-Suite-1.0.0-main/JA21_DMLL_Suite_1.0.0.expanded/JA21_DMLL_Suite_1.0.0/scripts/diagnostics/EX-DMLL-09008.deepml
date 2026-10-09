@@ -1,0 +1,6 @@
+deepml logic 0.3
+module corpus.deepml_logic.example_09008
+policy pure_by_default
+policy no_network
+module Logic09008 { fn head(xs:List<Int>)->Int = match xs { [h|t] => h } }
+certify logic Logic09008 profile strict

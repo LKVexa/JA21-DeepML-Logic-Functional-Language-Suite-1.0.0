@@ -1,0 +1,15 @@
+(* DRAFT LEXICAL APPENDIX, NOT A COMPLETE DEEPML GRAMMAR.
+   Candidate definitions use ASCII source tokens already present in the supplied examples.
+   They establish no type, effect, numerical, proof or runtime semantics.
+   Use only by an explicitly versioned future grammar composition step.
+   Do not concatenate blindly: several profiles already define these names. *)
+letter = "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H" | "I" | "J" | "K" | "L" | "M" | "N" | "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X" | "Y" | "Z" | "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z" ;
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+boolean = "true" | "false" ;
+integer = digit, { digit } ;
+number = [ "-" | "+" ], integer, [ ".", integer ], [ ( "e" | "E" ), [ "-" | "+" ], integer ] ;
+string = '"', { ? an unescaped non-quote, non-backslash, non-line-ending Unicode character, or an explicitly defined escape ? }, '"' ;
+newline = ? LF, or CRLF normalized to LF before source hashing only under an explicitly versioned migration; existing source hashes are exact UTF-8 bytes ? ;
+(* String escapes, whitespace/comment handling, named arguments, operator precedence,
+   time/unit literals and all undefined domain productions remain explicit grammar gaps.
+   The source programs and their hashes must not be normalized during this audit. *)

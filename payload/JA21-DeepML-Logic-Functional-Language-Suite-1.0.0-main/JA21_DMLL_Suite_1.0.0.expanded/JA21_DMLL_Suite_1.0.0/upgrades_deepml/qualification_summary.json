@@ -1,0 +1,33 @@
+{
+  "profile": "deepml.logic",
+  "suite": "JA21_DMLL_Suite_1.0.0",
+  "updated_datasets": [
+    {
+      "path": "corpus/technical/deepml_logic_functional_technical_corpus_10000.jsonl.gz",
+      "records": 10000,
+      "quarantined": 0,
+      "source_hash_mismatches": 0
+    }
+  ],
+  "master_expected_outcomes": {
+    "pass": 7940,
+    "fail_as_expected": 2060
+  },
+  "master_device_mismatch_field_counts": {},
+  "sample_quarantined_records": [],
+  "source_programs_preserved": true,
+  "modeled_result_qualification": "expected labels preserved; observed_result=null; native_execution_eligible=false",
+  "scope": "Published corpus/technical gzip datasets only; historical/reconstructed documents remain unchanged.",
+  "master_qualification_by_expected_outcome": [
+    {
+      "expected": "fail_as_expected",
+      "qualification": "modeled_expectation_only",
+      "count": 2060
+    },
+    {
+      "expected": "pass",
+      "qualification": "modeled_expectation_only",
+      "count": 7940
+    }
+  ]
+}
