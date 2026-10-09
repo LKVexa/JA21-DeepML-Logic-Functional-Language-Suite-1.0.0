@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "scope": "Current repository working-tree files, excluding Git metadata and this manifest. Historical archives and audit source statistics are preserved as provenance.",
   "file_count": 1199,
-  "total_bytes": 83180045,
+  "total_bytes": 83179923,
   "files": [
     {
       "path": "audit/change_ledger.json",
@@ -64,8 +64,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 35271,
-      "sha256": "d894b5fdbf08576dc90cc97d27dd3f3d4ca437d78792618c83e9c04c42509af6"
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
       "path": "NOTICE",
@@ -5995,7 +5995,7 @@
     {
       "path": "PUBLICATION_LICENSE_LEDGER.json",
       "bytes": 2794,
-      "sha256": "75ee3140b90d2e2325a8786f07aaeea95c40ab6c2660fe1c6a4eb137816b9b8b"
+      "sha256": "fcafc2fb90c6e8e817592615baf07323f927868156f35f76e221fe2f059b53e2"
     },
     {
       "path": "README.md",
